@@ -1,0 +1,6 @@
+.form_step.container.title {
+ border-bottom: solid 3px #5bc0de;
+ position: relative;
+ padding-bottom: 10px;
+ text-align: center;
+}
