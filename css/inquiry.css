@@ -1,0 +1,98 @@
+.title {
+	border-bottom: solid 3px #DD356E;
+	position: relative;
+	padding-bottom: 10px;
+	text-align: center;
+	margin: 
+}
+
+.title:after {
+	position: absolute;
+	content: " ";
+	display: block;
+	border-bottom: solid 3px #fee856;
+	bottom: -3px;
+	width: 30%;
+}
+
+textarea {
+	border-radius: 5px;
+}
+
+.form_wrapper.container {
+	width: calc(100% / 3);
+}
+
+.form_step_list {
+	display: flex;
+	justify-content: space-between;
+	padding-left: 0;
+	list-style: none;
+}
+
+.form_step_list li {
+	width: calc(100% / 3);
+	background: #ccc;
+	text-align: center;
+	padding: 5px;
+
+}
+
+.form_step_list li.active {
+	background: #fee856;
+}
+
+
+.form_step_number {
+	background: #fff;
+	border-radius: 100%;
+	padding: 5px;
+	margin-right: 5px;
+}
+
+.form_title {
+	margin-top: 40px;
+	margin-bottom: 10px;
+}
+
+
+.form_title_notice,
+.form_title_label {
+	display: inline-block;
+	font-size: 14px;
+	transform: translate(0, -5px);
+	margin: 0 5px;
+}
+
+.form_title_label {
+	border-radius: 3px; 
+	color: #fff;
+	padding: 3px;
+	transform: translate(0, -5px);
+}
+
+.form_title_label.must {
+	background: #dd356e;
+}
+
+.form_title_label.option {
+	background: #fee856;
+}
+
+.form_age_checkbox ,
+.form_category_checkbox {
+	list-style: none;
+}
+
+.form_age_checkbox li,
+.form_category_checkbox li {
+	margin: 3px;
+}
+
+.btn {
+	background: #dd356e;
+	color: #fff;
+	border-radius: 100px;
+	box-shadow: inset 0 2px 0 rgba(255,255,255,0.2), 0 2px 2px rgba(0, 0, 0, 0.19);
+	margin: 20px 50% 0 50%;
+}
